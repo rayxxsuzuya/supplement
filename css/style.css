@@ -1,0 +1,124 @@
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  height: 5000px;
+}
+
+.page-header {
+  position: relative;
+}
+
+.page-header::before {
+  content: '';
+  display: block;
+  background-image: url(../img/header-rect.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 1244px;
+  height: 200px;
+  right: 0;
+  top: 443px;
+  background-position: right;
+}
+
+.page-header .container {
+  padding-bottom: 171px;
+}
+
+.page-header .container .navbar {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 18px;
+}
+
+.page-header .container .navbar button {
+  border: none;
+}
+
+.page-header .container .navbar button i {
+  color: #666666;
+  font-size: 40px;
+}
+
+.page-header .container .navbar div ul li a i {
+  color: #666666;
+  font-size: 40px;
+}
+
+.page-header .container .header-main {
+  padding-top: 11.7%;
+}
+
+.page-header .container .header-main .row .col-5 h1 {
+  line-height: 35px;
+  text-transform: uppercase;
+  margin-bottom: 58px;
+  color: #333740;
+  font-family: "Raleway", sans-serif;
+  font-size: 4.5em;
+  position: relative;
+  font-weight: 800;
+  padding-left: 30px;
+}
+
+.page-header .container .header-main .row .col-5 h1::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 5px;
+  height: 95px;
+  top: -8px;
+  background-color: #18a3dd;
+  border-radius: 5px;
+}
+
+.page-header .container .header-main .row .col-5 h1 span {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.3333em;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  text-transform: none;
+  margin-top: 26px;
+}
+
+.page-header .container .header-main .row .col-5 p {
+  color: #666666;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  margin-bottom: 48px;
+}
+
+.page-header .container .header-main .row .col-5 .button-group .btn-1 {
+  background-color: #18a3dd;
+  border: none;
+  border-radius: 50px;
+  padding: 13px 39px;
+  color: #f1f1f1;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-right: 22px;
+}
+
+.page-header .container .header-main .row .col-5 .button-group .btn-2 {
+  color: #333740;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  background: none;
+  border: none;
+}
+
+.page-header .container .header-main .row .col-5 .button-group .btn-2 i {
+  color: #18a3dd;
+  font-size: 1.25em;
+  position: relative;
+  top: 2px;
+  left: 3px;
+}
+/*# sourceMappingURL=style.css.map */
