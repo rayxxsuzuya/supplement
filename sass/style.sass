@@ -22,7 +22,7 @@ body
 		top: 443px
 		background-position: right
 	.container
-		padding-bottom: 171px
+		padding-bottom: 94px
 		.navbar
 			border-bottom: 1px solid #ebebeb
 			padding-bottom: 18px
@@ -102,3 +102,64 @@ body
 								position: relative
 								top: 2px
 								left: 3px
+
+.page-stats
+	position: relative
+	&::before
+		content: ''
+		display: block
+		position: absolute
+		background-image: linear-gradient(-40deg, #0f0816 0%, #21172b 90%, #21172b 100%)
+		left: 0
+		top: 23.7%
+		width: 100%
+		height: 67.3%
+	.container
+		padding-top: 212px
+		padding-bottom: 145px
+		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			background-image: url(../img/page-stats-img.png)
+			background-repeat: no-repeat
+			width: 404px
+			height: 525px
+			top: -1px
+			left: -158px
+		.row
+			.col-2
+				span
+					color: #ffffff
+					font-size: 4.5em
+					font-weight: 900
+					text-transform: uppercase
+					letter-spacing: 1.8px
+					letter-spacing: 1.25px
+					text-align: center
+					padding-left: 19px
+					position: relative
+					margin-bottom: -7px
+					&::before
+						content: ''
+						display: block
+						position: absolute
+						background-color: $blue-color
+						width: 5px
+						height: 50px
+						border-radius: 5px
+						top: 34px
+						left: 1px
+				i
+					color: $blue-color
+					font-weight: 700
+					letter-spacing: 0.4px
+					font-size: 1em
+					text-transform: uppercase
+					font-style: normal
+				p
+					font-weight: 300
+					letter-spacing: 0.4px
+					font-size: 1em
+					color: #a9a9a9
