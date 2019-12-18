@@ -7,6 +7,34 @@ body
 	font-family: 'Lato', sans-serif
 	height: 5000px
 
+.h2-title
+	h2
+		font-family: $font-raleway
+		font-weight: 700
+		letter-spacing: 0.75px
+		color: #333740
+		font-size: 1.875em
+		margin-bottom: 12px
+		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			width: 1px
+			height: 40px
+			background-color: $blue-color
+			left: 49%
+			top: -2px
+		span
+			font-weight: 400
+			margin-left: 31px
+	p
+		color: #83888f
+		font-size: 1em
+		font-weight: 300
+		line-height: 24px
+		letter-spacing: 0.4px
+
 .page-header
 	position: relative
 	&::before
@@ -163,3 +191,71 @@ body
 					letter-spacing: 0.4px
 					font-size: 1em
 					color: #a9a9a9
+
+.page-features
+	.container
+		padding-top: 65px
+		.h2-title
+			margin-bottom: 71px
+		.row
+			.first-block
+				margin-bottom: 38px
+				&-text
+					position: relative
+					&::after
+						content: ''
+						display: block
+						position: absolute
+						width: 5px
+						height: 35px
+						background-color: $blue-color
+						border-radius: 5px
+						right: 2px
+						top: 4px
+					&:nth-child(1)
+						margin-bottom: 72px
+					h3
+						color: #333740
+						font-size: 1.25em
+						font-weight: 300
+						font-family: $font-raleway
+						letter-spacing: 0.5px
+						padding-right: 29.5px
+						margin-bottom: 25px
+					p
+						font-size: 1em
+						letter-spacing: 0.4px
+						text-align: right
+						padding-left: 51px
+			.second-block
+				img
+					display: block
+					margin: 0 auto
+			.third-block
+				margin-bottom: 38px
+				&-text
+					position: relative
+					&::after
+						content: ''
+						display: block
+						position: absolute
+						width: 5px
+						height: 35px
+						background-color: $blue-color
+						border-radius: 5px
+						left: 2px
+						top: 4px
+					&:nth-child(1)
+						margin-bottom: 72px
+					h3
+						color: #333740
+						font-size: 1.25em
+						font-weight: 300
+						font-family: $font-raleway
+						letter-spacing: 0.5px
+						padding-left: 29.5px
+						margin-bottom: 25px
+					p
+						font-size: 1em
+						letter-spacing: 0.4px
+						padding-right: 51px
