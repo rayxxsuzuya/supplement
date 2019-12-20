@@ -326,6 +326,7 @@ body {
 
 .page-real-man .container {
   padding-top: 113px;
+  padding-bottom: 191px;
 }
 
 .page-real-man .container .h2-title {
@@ -445,5 +446,107 @@ body {
   color: #333740;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.page-client {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-client .container {
+  padding-top: 113px;
+  padding-bottom: 181px;
+}
+
+.page-client .container .h2-title h2 {
+  color: #e5e5e5;
+}
+
+.page-client .container .h2-title h2::before {
+  left: 45.4%;
+}
+
+.page-client .container .h2-title h2 span {
+  font-weight: 300;
+  margin-left: 38px;
+}
+
+.page-client .container .h2-title p {
+  margin-bottom: 66px;
+}
+
+.page-client .container .carousel .carousel-indicators {
+  bottom: -85px;
+}
+
+.page-client .container .carousel .carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  background-color: #d8e4e8;
+  border-radius: 100%;
+  margin-right: 21px;
+}
+
+.page-client .container .carousel .carousel-indicators li:nth-child(3) {
+  margin-right: 0;
+}
+
+.page-client .container .carousel .carousel-indicators .active {
+  background-color: #18a3dd;
+}
+
+.page-client .container .carousel .carousel-inner .carousel-item > p {
+  max-width: 735px;
+  color: #a9a9a9;
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  margin-bottom: 29px;
+}
+
+.page-client .container .carousel .carousel-inner .carousel-item .person-block img {
+  height: 73px;
+  display: block;
+  margin-right: 31px;
+}
+
+.page-client .container .carousel .carousel-inner .carousel-item .person-block .person-block-info {
+  position: relative;
+}
+
+.page-client .container .carousel .carousel-inner .carousel-item .person-block .person-block-info::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 5px;
+  background-color: #18a3dd;
+  border-radius: 5px;
+  bottom: 10px;
+}
+
+.page-client .container .carousel .carousel-inner .carousel-item .person-block .person-block-info h3 {
+  color: #e5e5e5;
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.page-client .container .carousel .carousel-inner .carousel-item .person-block .person-block-info p {
+  letter-spacing: 0.35px;
+  color: #a9a9a9;
+  font-size: 0.875em;
+  font-weight: 300;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
