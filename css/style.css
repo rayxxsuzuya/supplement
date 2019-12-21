@@ -40,6 +40,7 @@ body {
 
 .page-header {
   position: relative;
+  background-color: #fafcfc;
 }
 
 .page-header::before {
@@ -158,6 +159,7 @@ body {
 
 .page-stats {
   position: relative;
+  background-color: #fafcfc;
 }
 
 .page-stats::before {
@@ -228,6 +230,10 @@ body {
   letter-spacing: 0.4px;
   font-size: 1em;
   color: #a9a9a9;
+}
+
+.page-features {
+  background-color: #fafcfc;
 }
 
 .page-features .container {
@@ -677,5 +683,37 @@ body {
 
 .page-supplement .container .row .col-4 .tab-content .tab-pane .supplement-info p {
   letter-spacing: 0.4px;
+}
+
+.page-certifications .container {
+  padding-top: 73px;
+  padding-bottom: 79px;
+}
+
+.page-certifications .container .h2-title {
+  margin-bottom: 47px;
+}
+
+.page-certifications .container .h2-title h2::before {
+  display: none;
+}
+
+.page-certifications .container .row .col-2:nth-child(2) {
+  border-left: 2px solid #dcdcdc;
+  border-right: 2px solid #dcdcdc;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.page-certifications .container .row .col-2:nth-child(3) {
+  border-right: 2px solid #dcdcdc;
+  padding-top: 13.5px;
+  padding-bottom: 13.5px;
+}
+
+.page-certifications .container .row .col-2:nth-child(4) {
+  border-right: 2px solid #dcdcdc;
+  padding-top: 10.5px;
+  padding-bottom: 10.5px;
 }
 /*# sourceMappingURL=style.css.map */
