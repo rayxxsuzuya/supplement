@@ -5,7 +5,6 @@ $blue-color: #18a3dd
 body
 	font-size: 16px
 	font-family: 'Lato', sans-serif
-	height: 7000px
 
 .h2-title
 	h2
@@ -750,4 +749,64 @@ body
 			padding: 15px 90px
 			border-radius: 50px
 
-
+.page-footer
+	background-color: #f1f4f5
+	.container
+		.row
+			padding-top: 48px
+			padding-bottom: 35px
+			.first-col
+				.block-first
+					p
+						font-size: 1em
+						letter-spacing: 0.4px
+						font-weight: 300
+						color: #666666
+					ul
+						list-style: none
+						padding-left: 0
+						display: flex
+						li
+							margin-right: 26px
+							position: relative
+							&:nth-child(1)
+								&::after
+									content: ''
+									display: block
+									position: absolute
+									width: 1px
+									height: 15px
+									background-color: #d9d9d9
+									top: 6px
+									left: 51px
+							&:nth-child(2)
+								&::after
+									content: ''
+									display: block
+									position: absolute
+									width: 1px
+									height: 15px
+									background-color: #d9d9d9
+									top: 6px
+									left: 49px
+							&:nth-child(3)
+								&::after
+									content: ''
+									display: block
+									position: absolute
+									width: 1px
+									height: 15px
+									background-color: #d9d9d9
+									top: 6px
+									left: 57px
+							a
+								font-size: 0.875em
+								font-weight: 300
+								color: #666666
+			.second-col
+				a
+					i
+						color: #666666
+						font-size: 1.25em
+						font-weight: 400
+						letter-spacing: 0.6px
