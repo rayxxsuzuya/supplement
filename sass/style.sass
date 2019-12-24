@@ -5,7 +5,7 @@ $blue-color: #18a3dd
 body
 	font-size: 16px
 	font-family: 'Lato', sans-serif
-	height: 6500px
+	height: 7000px
 
 .h2-title
 	h2
@@ -664,3 +664,90 @@ body
 					letter-spacing: 0.4px
 					flex-basis: 25%
 					z-index: 3
+
+.page-inquire
+	.container
+		padding-top: 111px
+		padding-bottom: 120px
+		.h2-title
+			margin-bottom: 98px
+			h2
+				&::before
+					left: 47.7%
+		.row
+			.col-6
+				.input-name
+					padding-left: 0
+					position: relative
+					&::before
+							content: 'Name'
+							display: block
+							position: absolute
+							color: #ababab
+							font-size: 1em
+							font-weight: 300
+							letter-spacing: 0.4px
+							top: -33px
+							left: 1px
+					input
+						border: none 
+						border-top: 1px solid #ebebeb
+						outline-color: #ebebeb
+						padding: 10px
+				.input-email
+					padding-right: 0
+					position: relative
+					&::before
+							content: 'Email'
+							display: block
+							position: absolute
+							color: #ababab
+							font-size: 1em
+							font-weight: 300
+							letter-spacing: 0.4px
+							top: -33px
+							left: 16px
+					input
+						border: none
+						border-top: 1px solid #ebebeb
+						outline-color: #ebebeb
+						padding: 10px
+				.textarea-block
+					padding-left: 0
+					padding-right: 0
+					position: relative
+					margin-bottom: 98px
+					&::before
+							content: 'Subject'
+							display: block
+							position: absolute
+							color: #ababab
+							font-size: 1em
+							font-weight: 300
+							letter-spacing: 0.4px
+							top: 20px
+							left: -1px
+					textarea
+						margin-top: 53px
+						resize: none
+						border: none
+						border-top: 1px solid #ebebeb
+						border-bottom: 1px solid #ebebeb
+						padding-top: 20px
+						padding-bottom: 20px
+						padding-left: 15px
+						padding-right: 15px
+						height: 98.61%
+						outline-color: #ebebeb
+		button
+			color: #f1f1f1
+			font-size: 1em
+			font-weight: 700
+			text-transform: uppercase
+			letter-spacing: 0.4px
+			border: none
+			background-color: $blue-color
+			padding: 15px 90px
+			border-radius: 50px
+
+
