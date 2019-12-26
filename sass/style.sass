@@ -116,6 +116,10 @@ body
 							text-transform: uppercase
 							letter-spacing: 0.4px
 							margin-right: 22px
+							transition: 0.3s
+							&:hover
+								background-color: #fff
+								color: $blue-color
 						.btn-2
 							color: #333740
 							font-size: 1em
@@ -124,12 +128,18 @@ body
 							letter-spacing: 0.4px
 							background: none
 							border: none
+							transition: 0.3s
+							&:hover
+								color: $blue-color
+							&:hover i
+								left: 1px
 							i
 								color: $blue-color
 								font-size: 1.25em
 								position: relative
 								top: 2px
 								left: 3px
+								transition: 0.3s
 
 .page-stats
 	position: relative
@@ -449,8 +459,13 @@ body
 					text-transform: uppercase
 					letter-spacing: 0.4px
 					background-color: $blue-color
+					transition: 0.3s
+					color: #fff
 					span
 						font-weight: 300
+					&:hover
+						color: $blue-color
+						background-color: #fff
 				.list-group
 					margin-bottom: 50px
 					a
@@ -604,6 +619,10 @@ body
 					background-color: $blue-color
 					border-radius: 50px
 					padding: 13px 39px
+					transition: 0.3s
+					&:hover
+						color: $blue-color
+						background-color: #fff
 
 .page-subscribe
 	background-image: url(../img/bg-2.png)
@@ -663,6 +682,10 @@ body
 					letter-spacing: 0.4px
 					flex-basis: 25%
 					z-index: 3
+					transition: 0.3s
+					&:hover
+						background-color: #fff
+						color: $blue-color
 
 .page-inquire
 	.container
@@ -748,6 +771,9 @@ body
 			background-color: $blue-color
 			padding: 15px 90px
 			border-radius: 50px
+			transition: 0.3s
+			&:hover
+				background-color: lighten($blue-color, 10%)
 
 .page-footer
 	background-color: #f1f4f5
@@ -805,8 +831,25 @@ body
 								color: #666666
 			.second-col
 				a
+					&:nth-child(1)
+						i
+							&:hover
+								color: #4267B2
+					&:nth-child(2)
+						i
+							&:hover
+								color: #1DA1F2
+					&:nth-child(3)
+						i
+							&:hover
+								color: #FF0000
+					&:nth-child(4)
+						i
+							&:hover
+								color: #ea4c89
 					i
 						color: #666666
 						font-size: 1.25em
 						font-weight: 400
 						letter-spacing: 0.6px
+						transition: 0.3s
